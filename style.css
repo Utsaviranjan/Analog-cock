@@ -1,0 +1,42 @@
+#ClockContainer{
+    /* background-color: rgb(226, 168, 98); */
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+    background: url(ghadi.jpg) no-repeat;
+    height: 90vh;
+    width: 40vw;
+    background-size: 100% ;
+}
+#hour, #min, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#min{
+    width: 1.5%;
+    height: 28%;
+    left: 49.50%;
+    top: 21%;
+    opacity: 0.7;
+    /* display: none; */
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 24%;
+    left: 49.50%;
+    top: 26%;
+    /* opacity: 0.7; */
+    /* display: none; */
+    transform-origin: bottom;
+}
+#sec{
+    width: 1%;
+    height: 34%;
+    left: 49.50%;
+    top: 15%;
+    opacity: 0.7;
+    transform-origin: bottom;
+    /* display: none; */
+}
